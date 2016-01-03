@@ -13,7 +13,16 @@ RPC Client / Server for desktop ambient lighting of a Rapsberry Pi connected led
 
 #### Usage:
 ###### Client:
-> Usage: Client.py [Screen #]
+> usage: Client.py [-h] d i p
+>
+> positional arguments:
+>   d           Screen from which to grab Ambilight data.
+>   i           Raspberry Pi IP hosting our Server.js.
+>   p           Raspberry Pi Port hosting our Server.js.
+> 
+> optional arguments:
+>   -h, --help  show this help message and exit
+
 
 ###### Server (Raspberry Pi):
 > Usage: node Server.js
